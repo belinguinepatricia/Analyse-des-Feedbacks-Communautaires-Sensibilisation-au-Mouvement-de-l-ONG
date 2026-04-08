@@ -1,8 +1,10 @@
 # 📊 Analyse-des-Feedbacks-Communautaires-Sensibilisation-au-Mouvement-de-l-ONG
 
+---
 
 > **Titre du projet : Analyse des Feedbacks Communautaires — Sensibilisation au Mouvement de l'ONG** 
 
+---
 
 **Période :** 10– 29 octobre 2025 | Élection présidentielle du 12 octobre 2025
 
@@ -12,6 +14,8 @@
 
 **Outils :** QUALCODER (codification qualitative) • Microsoft Excel (matrice de données) • Jamovi (analyses statistiques) • Matplotlib/Seaborn (visualisations)
 
+---
+
 ## Contexte du projet
 
 Ce projet analyse 138 feedbacks communautaires collectés autour de l'élection présidentielle camerounaise du 12 octobre 2025, dans le cadre du mécanisme de redevabilité communautaire. L'objectif était de comprendre comment les populations perçoivent l’ONG concernée — ses missions, ses principes de neutralité et ses actions — dans un contexte électoral par nature sensible et propice à la circulation de rumeurs.
@@ -19,6 +23,8 @@ Ce projet analyse 138 feedbacks communautaires collectés autour de l'élection 
 La collecte s'est étendue sur 14 jours : quelques jours avant le vote (10–11 octobre) et cinq jours après reparties sur une période de 12 jours (13–29 octobre). Les feedbacks ont été recueillis par les volontaires dans 10 régions du Cameroun, via des faces à face.
 
 feedback-electoral-2025/
+
+---
 
 ## 📋 Table des matières
 
@@ -46,14 +52,15 @@ feedback-electoral-2025/
 
 │       └── chart7_connaissance_confiance.jpg
 
-    
+---
+
 ## Méthodologie — Du qualitatif au quantitatif
  
 Ce projet illustre une méthode rigoureuse de transformation de données qualitatives en données quantitatives analysables statistiquement. Voici les 9 étapes clés :
 
 **1.Analyse qualitative initiale (QUALCODER).** 138 feedbacks codifiés en arborescence hiérarchique : 4 catégories principales, 21 sous-codes, variables socio-démographiques intégrées (Sexe, Tranche d'âge, Milieu, Langue, Diversité).
 
-**2.Stabilisation du codebook.** Fusion des doublons, création de 7 méta-catégories pour l'analyse quantitative (CAT_RUMEURS, CAT_QUESTIONS, CAT_DEMANDES, CAT_POSITIF, CAT_SECURITE, SENTIMENT_CRC, CONNAISSANCE_CRC).
+**2.Stabilisation du codebook.** Fusion des doublons, création de 7 méta-catégories pour l'analyse quantitative (CAT_RUMEURS, CAT_QUESTIONS, CAT_DEMANDES, CAT_POSITIF, CAT_SECURITE, SENTIMENT_CRC, CONNAISSANCE).
 
 **3.Construction de la matrice Excel.** 25 variables structurées en 5 blocs : Identifiants (A-C), Géographie (D-F), Socio-démographie (G-K), Thématiques (L-R), Perception (S-Y).
 
@@ -69,6 +76,7 @@ Ce projet illustre une méthode rigoureuse de transformation de données qualita
 
 **9.Visualisations et restitution.** 7 graphiques Python (Matplotlib/Seaborn), 3 versions de rapport PowerPoint (Partenaires, CEA, Terrain).
 
+---
 
 ## Principaux résultats
 
@@ -78,26 +86,26 @@ Ce projet illustre une méthode rigoureuse de transformation de données qualita
                     Figure 1 : Répartition des 138 feedbacks par catégorie principale.
 
 
-**Résultat 1 — La CRC comme filtre à rumeurs.** 64,5 % des messages portent sur des rumeurs, croyances ou observations. En contexte électoral, les populations utilisent la CRC comme référence informationnelle — une opportunité institutionnelle unique.
+**Résultat 1 — La CRC comme filtre à rumeurs.** 64,5 % des messages portent sur des rumeurs, croyances ou observations. En contexte électoral, les populations utilisent l'ONG comme référence informationnelle — une opportunité institutionnelle unique.
 
 
 
 
-![Figure 2 : Distribution du sentiment envers la CRC (score −2 à +2).](https://github.com/user-attachments/assets/56d65121-71ac-4f34-9297-d8ed4a13bbdf)
+![Figure 2 : Distribution du sentiment (score −2 à +2).](https://github.com/user-attachments/assets/56d65121-71ac-4f34-9297-d8ed4a13bbdf)
 
-                    Figure 2 : Distribution du sentiment envers la CRC (score −2 à +2).
+                    Figure 2 : Distribution du sentiment envers l'ONG (score −2 à +2).
 
 
-**Résultat 2 — Sentiment légèrement positif et stable.** Score moyen de +0,30/2. 36,2 % de feedbacks positifs (confiance), 48,4 % neutres, 16,8 % négatifs (méfiance). Aucune variation significative sur les 14 jours de collecte.
+**Résultat 2 — Sentiment légèrement positif et stable.** Score moyen de +0,30/2. 36,2 % de feedbacks positifs (confiance), 48,4 % neutres, 16,8 % négatifs (méfiance). Aucune variation significative sur les 19 jours de collecte.
 
 
 
 
 ![Figure 3 : Évolution temporelle du sentiment sur 19 jours (ANOVA : F=0,24, p=0,624 — stabilité prouvée).](https://github.com/user-attachments/assets/7e5d6655-27b4-4d34-9843-b9616433bf95)
 
-                     Figure 3 : Évolution temporelle du sentiment sur 14 jours (ANOVA : F=0,24, p=0,624 — stabilité prouvée).
+                     Figure 3 : Évolution temporelle du sentiment sur 19 jours (ANOVA : F=0,24, p=0,624 — stabilité prouvée).
                      
-**Résultat 3 — La connaissance prédit la confiance.** Seul prédicteur statistiquement significatif : la connaissance de la CRC (OR=2,79, p=0,015). Une personne qui connaît la CRC a 2,79 fois plus de chances de lui faire confiance.
+**Résultat 3 — La connaissance prédit la confiance.** Seul prédicteur statistiquement significatif : la connaissance (OR=2,79, p=0,015). Une personne qui connaît la connait a 2,79 fois plus de chances de lui faire confiance.
 
 
 
@@ -108,9 +116,9 @@ Figure 4 : Lien Connaissance → Confiance (OR=2,79 — résultat statistiquemen
 
 
 
-![ Figure 5 : Forest plot des Odds Ratios — facteurs prédicteurs de la confiance envers la CRC.](https://github.com/user-attachments/assets/960ca93e-9367-4132-9260-78369e08dbc1)
+![ Figure 5 : Forest plot des Odds Ratios — facteurs prédicteurs de la confiance.](https://github.com/user-attachments/assets/960ca93e-9367-4132-9260-78369e08dbc1)
 
-Figure 5 : Forest plot des Odds Ratios — facteurs prédicteurs de la confiance envers la CRC.
+Figure 5 : Forest plot des Odds Ratios — facteurs prédicteurs de la confiance.
 
 **Résultat 4 — Langue rurale = barrière d'accès.** Association très forte Milieu × Langue (χ²=41,3, p<0,001, V de Cramer=0,659) : zones rurales et langues locales sont indissociables. Toute communication uniquement en français exclut ces populations.
 
@@ -130,8 +138,7 @@ Figure 7 : Distribution géographique des feedbacks par analyse (H+F vs Groupe M
 
 **Résultat 5 — Groupe Mixte = zones à risque.** La Zone NOSO représente 16,3 % des feedbacks en Groupe Mixte vs 8,4 % en analyse individuelle. Dans les zones de conflit, les populations s'expriment collectivement plutôt qu'individuellement — signe de méfiance contextuelle.
 
-
-
+---
 
 ## Recommandations opérationnelles
 
@@ -141,9 +148,11 @@ Figure 7 : Distribution géographique des feedbacks par analyse (H+F vs Groupe M
 
 **3. Former les équipes terrain au protocole rumeurs.** 64,5 % des feedbacks portent sur des rumeurs. Créer une fiche de collecte dédiée (rumeur entendue, source, réaction communautaire) et former les agents à l'écoute active sans amplification.
 
-**4. Valoriser la neutralité perçue.** La stabilité du sentiment sur 14 jours est un actif réputationnel démontré par les données. Communiquer explicitement sur cette neutralité dans les prochaines campagnes.
+**4. Valoriser la neutralité perçue.** La stabilité du sentiment sur 19 jours est un actif réputationnel démontré par les données. Communiquer explicitement sur cette neutralité dans les prochaines campagnes.
 
 **5. Note sur la collecte des données de contact.** Les coordonnées de contact ont été intégrées au formulaire. La faible adoption (réticence des populations par crainte d'identification) est un enjeu de contexte terrain, non un défaut méthodologique. Des approches de collecte anonymisée ou via représentants communautaires sont à explorer.
+
+---
 
 ## Limites de l'analyse
 
@@ -155,6 +164,8 @@ Figure 7 : Distribution géographique des feedbacks par analyse (H+F vs Groupe M
 
 **•Représentativité géographique.** Surreprésentation de la zone Littoral/Ouest (51,6 %) et sous-représentation de Centre/Sud/Est (9,5 %). Les résultats reflètent les zones d'activité CEA active.
 
+---
+
 ## Technologies utilisées
 
 | Outil	| Usage	Version | Notes |
@@ -165,11 +176,13 @@ Figure 7 : Distribution géographique des feedbacks par analyse (H+F vs Groupe M
 | **Python / Matplotlib	Visualisations data / graphiques** |	Python 3.x, Matplotlib, Seaborn |
 | **PowerPoint** |	Rapports de restitution (3 versions) |	Microsoft 365 |
 
+---
+
 ## Compétences démontrées
 
 Ce projet illustre un pipeline complet d'analyse data dans un contexte humanitaire :
 
-•**Mixed-methods analysis.** Passage du qualitatif (ATLAS.ti) au quantitatif (Jamovi) avec rigueur méthodologique documentée
+•**Mixed-methods analysis.** Passage du qualitatif (QUALCODER) au quantitatif (Jamovi) avec rigueur méthodologique documentée
 
 **•Statistical analysis.** Khi-deux, Spearman, Mann-Whitney, Régression logistique, ACM, ANOVA — avec interprétation critique des résultats
 
@@ -180,6 +193,8 @@ Ce projet illustre un pipeline complet d'analyse data dans un contexte humanitai
 **•Data visualization.** Forest plot, bar charts, pie charts, temporal analysis avec Matplotlib/Seaborn
 
 **•Excel advanced.** RECHERCHEV, NB.SI.ENS, tableaux croisés dynamiques, formules de calcul d'indicateurs composites (ICI)
+
+---
 
 ## Licence et contact
 
@@ -192,6 +207,8 @@ Ce projet illustre un pipeline complet d'analyse data dans un contexte humanitai
 **Répertoire :** github.com/[username]/crc-feedback-electoral-2025
 
 Ce projet fait partie d'un portfolio de Data Analytics axé sur les données humanitaires et communautaires au Cameroun. Il démontre la capacité à transformer des données de terrain complexes en insights actionnables pour la prise de décision institutionnelle.
+
+---
 
 📄 Licence MIT
 Copyright (c) 2026 BELINGUINE Patricia
