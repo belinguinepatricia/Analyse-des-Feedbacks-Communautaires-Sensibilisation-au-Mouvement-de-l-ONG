@@ -22,35 +22,22 @@ Ce projet analyse 138 feedbacks communautaires collectés autour de l'élection 
 
 La collecte s'est étendue sur 14 jours : quelques jours avant le vote (10–11 octobre) et cinq jours après reparties sur une période de 12 jours (13–29 octobre). Les feedbacks ont été recueillis par les volontaires dans 10 régions du Cameroun, via des faces à face.
 
-feedback-electoral-2025/
 
 ---
 
 ## 📋 Table des matières
 
-├── README.md ce fichier  
-
+├── README.md
 ├── data/
-
-│   ├── feedback_electoraux.xlsx 
-
-├── assets/
-
-│   └── charts/                        ← Visualisations générées
-
-│       ├── chart1_categories.jpg
-
-│       ├── chart2_sentiment.jpg
-
-│       ├── chart3_odds_ratio.jpg
-
-│       ├── chart4_temporal.jpg
-
-│       ├── chart5_milieu_langue.jpg
-
-│       ├── chart6_regions.jpg
-
-│       └── chart7_connaissance_confiance.jpg
+ ├── crc_feedback_electoraux.xlsx
+ ├── verbatim_des_codes.xlsx  ← Verbatims codifiés QUACLODER
+ ├── chart1_categories.jpg
+ ├── chart2_sentiment.jpg
+ ├── chart3_odds_ratio.jpg
+ ├── chart4_temporal.jpg
+ ├── chart5_milieu_langue.jpg
+ ├── chart6_regions.jpg
+ └── chart7_connaissance_confiance.jpg
 
 ---
 
