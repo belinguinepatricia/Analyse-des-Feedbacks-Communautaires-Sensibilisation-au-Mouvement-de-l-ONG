@@ -1,4 +1,4 @@
-# 📊 Analyse-des-Feedbacks-Communautaires-Sensibilisation-au-Mouvement-de-l-ONG>
+# 📊 Analyse-des-Feedbacks-Communautaires-Sensibilisation-au-Mouvement-de-l-ONG
 
 
 > **Titre du projet : Analyse des Feedbacks Communautaires — Sensibilisation au Mouvement de l'ONG** 
@@ -18,23 +18,18 @@ Ce projet analyse 138 feedbacks communautaires collectés autour de l'élection 
 
 La collecte s'est étendue sur 14 jours : quelques jours avant le vote (10–11 octobre) et cinq jours après reparties sur une période de 12 jours (13–29 octobre). Les feedbacks ont été recueillis par les volontaires dans 10 régions du Cameroun, via des faces à face.
 
-crc-feedback-electoral-2025/
+feedback-electoral-2025/
 
 ## 📋 Table des matières
 
-├── README.md                          ← Ce fichier
+├── README.md ce fichier  
 
 ├── data/
-│   ├── crc_feedback_electoraux.xlsx   ← Matrice de données Excel
 
-│   └── verbatim_des_codes.xlsx        ← Verbatims codifiés QUACLODER
-├── analysis/
-
-│   ├── guide_operationnel_v2.docx     ← Guide méthodologique complet
-
-│   └── analyses_jamovi.docx           ← Résultats Jamovi (sorties brutes)
+│   ├── feedback_electoraux.xlsx 
 
 ├── assets/
+
 │   └── charts/                        ← Visualisations générées
 
 │       ├── chart1_categories.jpg
@@ -50,15 +45,6 @@ crc-feedback-electoral-2025/
 │       ├── chart6_regions.jpg
 
 │       └── chart7_connaissance_confiance.jpg
-
-└── reports/
-
-    ├── rapport_partenaires.pptx
-    
-    ├── rapport_cea.pptx
-    
-    └── rapport_terrain.pptx
-    
 
     
 ## Méthodologie — Du qualitatif au quantitatif
