@@ -1,7 +1,7 @@
 # 📊 Analyse-des-Feedbacks-Communautaires-Sensibilisation-au-Mouvement-de-l-ONG>
 
 
-> **Titre du projet : Analyse des Feedbacks Communautaires — Sensibilisation au Mouvement de l'ONG**
+> **Titre du projet : Analyse des Feedbacks Communautaires — Sensibilisation au Mouvement de l'ONG** 
 
 
 **Période :** 10– 29 octobre 2025 | Élection présidentielle du 12 octobre 2025
@@ -95,12 +95,16 @@ Ce projet illustre une méthode rigoureuse de transformation de données qualita
 **Résultat 1 — La CRC comme filtre à rumeurs.** 64,5 % des messages portent sur des rumeurs, croyances ou observations. En contexte électoral, les populations utilisent la CRC comme référence informationnelle — une opportunité institutionnelle unique.
 
 
+
+
 ![Figure 2 : Distribution du sentiment envers la CRC (score −2 à +2).](https://github.com/user-attachments/assets/56d65121-71ac-4f34-9297-d8ed4a13bbdf)
 
                     Figure 2 : Distribution du sentiment envers la CRC (score −2 à +2).
 
 
 **Résultat 2 — Sentiment légèrement positif et stable.** Score moyen de +0,30/2. 36,2 % de feedbacks positifs (confiance), 48,4 % neutres, 16,8 % négatifs (méfiance). Aucune variation significative sur les 14 jours de collecte.
+
+
 
 
 ![Figure 3 : Évolution temporelle du sentiment sur 19 jours (ANOVA : F=0,24, p=0,624 — stabilité prouvée).](https://github.com/user-attachments/assets/7e5d6655-27b4-4d34-9843-b9616433bf95)
@@ -110,9 +114,12 @@ Ce projet illustre une méthode rigoureuse de transformation de données qualita
 **Résultat 3 — La connaissance prédit la confiance.** Seul prédicteur statistiquement significatif : la connaissance de la CRC (OR=2,79, p=0,015). Une personne qui connaît la CRC a 2,79 fois plus de chances de lui faire confiance.
 
 
+
+
 ![Figure  4 : Lien Connaissance → Confiance (OR=2,79 — résultat statistiquement prouvé).](https://github.com/user-attachments/assets/314aa8a0-9248-495d-a006-fa5e56635556)
 
 Figure 4 : Lien Connaissance → Confiance (OR=2,79 — résultat statistiquement prouvé).
+
 
 
 ![ Figure 5 : Forest plot des Odds Ratios — facteurs prédicteurs de la confiance envers la CRC.](https://github.com/user-attachments/assets/960ca93e-9367-4132-9260-78369e08dbc1)
@@ -122,9 +129,13 @@ Figure 5 : Forest plot des Odds Ratios — facteurs prédicteurs de la confiance
 **Résultat 4 — Langue rurale = barrière d'accès.** Association très forte Milieu × Langue (χ²=41,3, p<0,001, V de Cramer=0,659) : zones rurales et langues locales sont indissociables. Toute communication uniquement en français exclut ces populations.
 
 
+
+
 ![Figure 6 : Association Milieu × Langue — résultat le plus fort de l'analyse (V=0,659, p<0,001).](https://github.com/user-attachments/assets/7d7269e7-f60d-4751-b506-c56128a1a46f)
 
 Figure 6 : Association Milieu × Langue — résultat le plus fort de l'analyse (V=0,659, p<0,001).
+
+
 
 
 ![Figure 7 : Distribution géographique des feedbacks par analyse (H+F vs Groupe Mixte).](https://github.com/user-attachments/assets/fac09b59-61cd-417b-ae5b-66ffdcaddd2d)
@@ -132,6 +143,8 @@ Figure 6 : Association Milieu × Langue — résultat le plus fort de l'analyse 
 Figure 7 : Distribution géographique des feedbacks par analyse (H+F vs Groupe Mixte).
 
 **Résultat 5 — Groupe Mixte = zones à risque.** La Zone NOSO représente 16,3 % des feedbacks en Groupe Mixte vs 8,4 % en analyse individuelle. Dans les zones de conflit, les populations s'expriment collectivement plutôt qu'individuellement — signe de méfiance contextuelle.
+
+
 
 
 ## Recommandations opérationnelles
@@ -158,12 +171,13 @@ Figure 7 : Distribution géographique des feedbacks par analyse (H+F vs Groupe M
 
 ## Technologies utilisées
 
-Outil	Usage	Version / Notes
-**QUALCODER**	Codification qualitative des feedbacks	Version Web / Desktop
-**Microsoft Excel**	Matrice de données, formules, KPIs	Excel 365
-**Jamovi**	Analyses statistiques inférentielles	v2.x — gratuit et open source
-**Python / Matplotlib	Visualisations data / graphiques**	Python 3.x, Matplotlib, Seaborn
-**PowerPoint**	Rapports de restitution (3 versions)	Microsoft 365
+| Outil	| Usage	Version | Notes |
+|---|---|---|
+|**QUALCODER** | Codification qualitative des feedbacks |	| Version Web / Desktop |
+| **Microsoft Excel** |	 Matrice de données, formules, KPIs |	Excel 365 |
+| **Jamovi** |	Analyses statistiques inférentielles |	 v2.x — gratuit et open source |
+| **Python / Matplotlib	Visualisations data / graphiques** |	Python 3.x, Matplotlib, Seaborn |
+| **PowerPoint** |	Rapports de restitution (3 versions) |	Microsoft 365 |
 
 ## Compétences démontrées
 
