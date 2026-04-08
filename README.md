@@ -192,3 +192,23 @@ Ce projet illustre un pipeline complet d'analyse data dans un contexte humanitai
 **Répertoire :** github.com/[username]/crc-feedback-electoral-2025
 
 Ce projet fait partie d'un portfolio de Data Analytics axé sur les données humanitaires et communautaires au Cameroun. Il démontre la capacité à transformer des données de terrain complexes en insights actionnables pour la prise de décision institutionnelle.
+
+📄 Licence MIT
+Copyright (c) 2026 BELINGUINE Patricia
+
+L'autorisation est accordée, gracieusement, à toute personne acquérant une copie de ce logiciel
+et des fichiers de documentation associés (le « Logiciel »), de l'utiliser sans restriction,
+y compris sans limitation les droits d'utiliser, de copier, de modifier, de fusionner, de publier,
+de distribuer, de sous-licencier et/ou de vendre des copies du Logiciel, et de permettre
+aux personnes auxquelles le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+La notice de copyright ci-dessus et la présente autorisation doivent être incluses dans toutes
+les copies ou parties substantielles du Logiciel.
+
+LE LOGICIEL EST FOURNI « EN L'ÉTAT », SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE,
+Y COMPRIS MAIS SANS S'Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À
+UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS LES AUTEURS OU TITULAIRES
+DU DROIT D'AUTEUR NE POURRONT ÊTRE TENUS POUR RESPONSABLES D'UNE RÉCLAMATION, DOMMAGES
+OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D'UN CONTRAT, D'UN DÉLIT OU AUTRE,
+DÉCOULANT DE, OU EN RELATION AVEC LE LOGICIEL OU L'UTILISATION OU AUTRES RAPPORTS AVEC LE LOGICIEL.
+
